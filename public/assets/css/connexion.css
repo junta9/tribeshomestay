@@ -1,0 +1,45 @@
+@font-face {
+    font-family: segoePR;
+    src: url(../fonts/segoepr.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "segoePR";
+    height: 100vh;
+}
+.formulaire {
+    background-image: url(../images/rice-fields-g65d4ea483_1920\ -\ Modifié.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+}
+form {
+    display: flex;
+    background-color: #c3bfa1;
+    height: 350px;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+form input {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+form p {
+    padding-top: 0px;
+}
+form p a {
+    text-decoration: none;
+}
+legend {
+    padding: 10px;
+}

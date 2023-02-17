@@ -1,0 +1,113 @@
+@font-face {
+    font-family: segoePR;
+    src: url(/assets/fonts/segoepr.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "segoePR";
+    height: 100vh;
+    background-color: #c3bfa1;
+}
+header {
+    /* opacity: 0.9; */
+    width: 100%;
+    /* position: absolute; */
+}
+.trait {
+    display: block;
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: rgb(56, 55, 55);
+    transform: translateX(50%);
+}
+.nav-link.btn {
+    background-color: #F9E03B;
+    padding: 2px 10px;
+}
+
+.cover {
+    height: 50vh;
+    background-image: url(./images/agriculture-g3e1741504_1920.jpg);
+    background-position: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cover-presentation {
+    background-color: #c3bfa1;
+    padding: 20px;
+}
+.cover-presentation p {
+    color: black;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: black;
+    width: 100%;
+    position: absolute;
+    font-size: 1.5em;
+    top: 35%;
+    background-color: rgba(255, 255, 255, 0.505);
+    padding: 5px 50px 4px 50px;
+    border: none;
+}
+.cover h2 {
+    color: black;
+    width: 100%;
+    position: absolute;
+    top: 39.3%;
+    font-size: 1.3em;
+    background-color: rgba(255, 255, 255, 0.505);
+    padding: 5px 30px 5px 30px;
+    border: none;
+}
+.quijesuis, .sejours {
+    width: 100%;
+    background-color: #c3bfa1;
+    padding-top: 20px;
+}
+.quijesuis h2 {
+    background-color: black;
+    font-size: 1.1em;
+    color: white;
+    padding: 10px;
+}
+.quijesuis p {
+    padding: 20px;
+    color: black;
+    margin: inherit;
+}
+.thailande .description, .laos .description, .vietnam .description, .contact h2 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.thailande h3, .laos h3, .vietnam h3 {
+    background-color: #707015;
+    margin-top: 10px;
+    padding: 5px 0;
+}
+.image {
+    display: flex;
+    flex-direction: column;
+}
+.image span {
+    background-color: #F9E03B;
+    opacity: 81%;
+    position: relative;
+    top: -40px;
+}
+.contact {
+    background-image: url(./images/rice-fields-g65d4ea483_1920\ -\ Modifié.png);
+}
+.formulaire {
+    padding-top: 20px;
+}
+.formulaire form {
+    font-size: 1.1em;
+}
